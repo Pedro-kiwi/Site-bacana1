@@ -19,7 +19,7 @@ Este é um projeto de site dedicado a descrever as habilidades dos personagens (
 ## Como Usar
 
 1. Baixe o centeúdo desse repositório:
-   você baixar apertando no disquete [\u1F4BE](https://github.com/Pedro-kiwi/Site-bacana1/archive/refs/heads/main.zip)
+   você baixar apertando no disquete [💾](https://github.com/Pedro-kiwi/Site-bacana1/archive/refs/heads/main.zip)
 
 2. Navegue até a pasta do projeto:
    
