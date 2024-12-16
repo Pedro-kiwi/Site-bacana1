@@ -1,0 +1,124 @@
+div.divPrincipal{
+    background-color: #333; 
+    color: white; 
+    padding: 10px ; 
+    position: absolute; 
+    top: 0; 
+    left: -20px; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+h1.h1DivPrincipal{
+    margin: 0; 
+    font-size: 24px; 
+    padding-left: 50px;
+}
+
+a.menuDivPrincipal{
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px;
+}
+
+img.xereca{
+    width: 25px;
+    height: 25px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.character-container {
+    background-color: #222;
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.character-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.character-header h1 {
+    font-size: 36px;
+    color: #00bfff;
+}
+
+.character-header p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.character-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-image img {
+    width: 190px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.character-info {
+    text-align: center;
+    max-width: 800px;
+}
+
+.character-info h2 {
+    font-size: 24px;
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.character-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.abilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ability-card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+}
+
+.ability-card h3 {
+    font-size: 20px;
+    color: #00bfff;
+}
+
+.ability-card p {
+    font-size: 14px;
+    color: #ddd;
+}

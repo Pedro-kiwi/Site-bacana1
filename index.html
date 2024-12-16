@@ -3,134 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="midia/imagem/xereca/favicon-32x32.png">
+    <link rel="stylesheet" href="style/indexStyle.css">
+
     <title>META AI</title>
-
-    <link rel="icon" type="image/png" href="imgs\favicon-32x32.png">
-
-    <style>
-       
-   
-        body {
-            background-color: royalblue;
-        }
-
-        img.xereca{
-            width: 25px;
-            height: 25px;
-
-        }
-        
-        h1{
-            color:rgb(179, 165, 165);
-        }
-
-        div.cl{
-           width: 100%;
-           color: black;
-           background-color: pink;
-
-        }
-
-        div.sexoAnal{
-            background-color: black;
-            color:white; 
-            padding: 60px 20px; 
-            margin: 0 auto; 
-            width: 90%; 
-            border-radius: 10px;
-            margin-top: 120px;
-            
-        }
-
-        div.divPrincipal{
-            background-color: #333; 
-            color: white; 
-            padding: 10px ; 
-            position: absolute; 
-            top: 0; 
-            left: -20px; 
-            width: 100%; 
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-            z-index: 1000; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center;
-        }
-        .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Faz o vídeo cobrir toda a tela */
-    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
-    }
-.content {
-    position: relative;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 2rem;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-      
-    </style>
-    
 </head>
 
 
-<body id="background">
+<body>
+
     <video class="video-background" autoplay muted loop>
-        <source src="imgs/video.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos em HTML5.
+        <source src="midia/video/backgroundVideoMainPage.mp4" type="video/mp4">
     </video>
 
     <div class="divPrincipal">
-        <h1 style=" margin: 0; font-size: 24px; padding-left: 50px;">Valorant</h1>
+        <h1 class="h1DivPrincipal"> Valorant </h1>
         <nav>
-            <img src="imgs\frogpng.png" class="xereca">
-            <a href="" style="color: white; text-decoration: none; margin: 0 15px;">Home</a>
-            <a href="#about" style="color: white; text-decoration: none; margin: 0 15px;">Sobre</a>
-            <a href="#contact" style="color: white; text-decoration: none; margin: 0 30px;">Contato</a>
+            <img src="midia/imagem/xereca/frogpng.png" class="xereca">
+            <a href="" class="menuDivPrincipal">Home</a>
+            <a href="#about" class="menuDivPrincipal">Sobre</a>
+            <a href="#contact" class="menuDivPrincipal">Contato</a>
         </nav>
     </div>
 
     <!-- Conteúdo -->
-    <div class="sexoAnal">
-      
+    <div class="sexoDuelista">
+
         <th>
             <td>
-                <a href="agentes\reyna.html">
-                    <img src="imgs\Reyna_Fullbody (2).png" alt="reyna.html">
-                </a>
-            
+                <a href="agentes\reyna.html"><img src="midia/imagem/reyna/reyna.png" alt="Imagem de corpo inteiro da Reyna"></a>
             </td>
+
             <td>
-                <a href="T:\git\Site-bacana\agentes\yoru.html">
-                    <img src="imgs\Yoru_-_Full_body (2).png" alt="yoru.html">
+                <a href="agentes/yoru.html"><img src="midia/imagem/yoru/yoru.png" alt="Imagem de corpo inteiro do Yoru"></a>
             </td>
+
             <td>
-                <a href="T:\git\Site-bacana\agentes\jett.html">
-                    <img src="imgs\Jett (1).png" alt="jett.html">
+                <a href="agentes/jett.html"><img src="midia/imagem/jett/jett.png" alt="Imagem de corpor inteiro Jett"></a>
             </td>
+
             <td>
-                <a href="agentes\raze.html">
-                    <img src="imgs\raze.png" alt="yoru.html">
+                <a href="agentes\raze.html"><img src="midia/imagem/raze/raze.png" alt="Imagem de corpo inteiro Raze"></a>
             </td>
+
             <td>
-                <a href="agentes\PHOENIX.html">
-                <img src="imgs/phenix (1).png" alt="">
+                <a href="agentes\phoenix.html"><img src="midia/imagem/phoenix/phoenix.png" alt="Imagem de corpo inteiro Phoenix"></a>
             </td>
+
             <td>
-                <a href="agentes\iso.html">
-                    <img src="imgs\Iso_-_Full_body (1).png" alt="">
+                <a href="agentes\iso.html"><img src="midia/imagem/iso/iso.png" alt="Imagem de corpo inteiro Iso"></a> 
             </td>
+
             <td>
-                <a href="agentes\neon.html">
-                    <img src="imgs\Neon (1).png" alt="">
+                <a href="agentes\neon.html"><img src="midia/imagem/neon/neon.png" alt="Imagem de corpo inteiro Neon"></a>
             </td>
         </th>
     </div>
