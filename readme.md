@@ -18,15 +18,9 @@ Este é um projeto de site dedicado a descrever as habilidades dos personagens (
 
 ## Como Usar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/Pedro-kiwi/Site-bacana1.git 
-   ```
+1. Baixe o centeúdo desse repositório:
+   você baixar apertando no disquete [\u1F4BE](https://github.com/Pedro-kiwi/Site-bacana1/archive/refs/heads/main.zip)
 
 2. Navegue até a pasta do projeto:
-   ```bash
-   cd "your\path\Site-bacana1"
-   ```
-   lembre-se de mudar o camihno para o caminho da pasta do projeto
    
 3. Abra o arquivo 'index.html'
