@@ -8,6 +8,8 @@ Este é um projeto de site dedicado a descrever as habilidades dos personagens (
 - **Detalhes das Habilidades**: Cada agente possui uma página dedicada com uma descrição detalhada de suas habilidades, incluindo efeitos e como utilizá-las.
 - **Design Responsivo**: O site foi desenvolvido para ser acessível em dispositivos móveis, garantindo uma boa experiência para todos os jogadores.
 
+![imagem da página do yoru](midia/imagem/readmeImages/previewYoruPage.png)
+
 ## Tecnologias Utilizadas
 
 - **HTML5**: Para a estruturação da página.
