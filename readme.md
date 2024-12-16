@@ -20,12 +20,13 @@ Este é um projeto de site dedicado a descrever as habilidades dos personagens (
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/valorant-character-abilities.git
+   git clone https://github.com/Pedro-kiwi/Site-bacana1.git 
    ```
 
 2. Navegue até a pasta do projeto:
    ```bash
    cd "your\path\Site-bacana1"
    ```
+   lembre-se de mudar o camihno para o caminho da pasta do projeto
    
 3. Abra o arquivo 'index.html'
